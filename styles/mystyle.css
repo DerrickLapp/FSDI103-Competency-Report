@@ -1,0 +1,58 @@
+/** global **/
+body{
+    background-color: lightblue;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/** Utilities **/
+.indexbanner{
+    background-image: url(/img/DogBanner.jpg);
+    background-position-y: 13%;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.indexbanner h1{
+    font-size: 54px;
+    text-decoration: underline;
+}
+nav{
+    margin-top: auto;
+    margin-right: 10%;
+}
+.indexbanner a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 22px;
+
+}
+/** Header **/
+.pageTitle{
+    padding-top: 2rem;
+}
+/** Body **/
+
+.frontpage_container{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.frontpage_container h2{
+    font-size: 36px;
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.frontpage_container h3{
+    font-size: 24px;
+    text-decoration: underline;
+}

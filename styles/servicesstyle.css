@@ -1,0 +1,51 @@
+/**global**/
+body{
+    background-color: lightblue;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**Utilities**/
+.servicesbanner{
+    background-image: url(/img/BirdBanner.jpg);
+    background-position-y: 1%;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.servicesbanner h1{
+    font-size: 54px;
+    text-decoration: underline;
+}
+nav{
+    margin-top: auto;
+    margin-right: 10%;
+}
+.servicesbanner a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: orange;
+
+}
+/** Header **/
+.pageTitle{
+    margin-top: auto;
+    margin-bottom: 2px;
+    text-decoration: underline;
+    font-size: 54px;
+}
+
+/**Body**/
+.serviceList{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2rem;
+}
